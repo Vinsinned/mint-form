@@ -49,6 +49,31 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	background-color: #eceef1;
 }
+a:link {
+	color: #0077C5;
+	text-decoration: none;
+}
+a:visited {
+	color: #0077C5;
+}
+.hoverLink:hover {
+	text-decoration: underline;
+}
+.formFooterLink:link {
+	color: #505050;
+}
+.formFooterLink:visited {
+	color: #505050;
+}
+.formFooterLink:hover {
+	text-decoration: underline;
+}
+.signIn {
+	display: block;
+}
+.signInTextSmall {
+	display: none;
+}
 
 /* Header */
 .signIn {
@@ -77,6 +102,7 @@ body {
 	border-radius: 4px;
 	margin-right: 30px;
 	margin-left: 10px;
+	cursor: pointer;
 }
 .headerLockIcon {
 	margin-right: 4px;
@@ -274,4 +300,12 @@ footer {
 	font-size: 14px;
 }
 
+@media (max-width:641px) { 
+	.signIn {
+		display: none;
+	}
+	.signInTextSmall {
+		display: block;
+	}
+}
 
