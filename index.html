@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Mint Sign Up</title>
+	<link rel="stylesheet" href="style.css">
+	<link
+		href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+		rel="stylesheet">
+</head>
+
+<body>
+	<header class="signIn">
+		<div class="signInText">
+			<p>Already have an Intuit account?</p>
+			<h3><a href="https://accounts.intuit.com/account-recovery.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Ftask%3DS" target="_blank">I forgot my User ID or Password</a></h3>
+		</div>
+		<a href="https://accounts.intuit.com/index.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Ftask%3DS" target="_blank">
+			<button type="button" class="headerButton">
+				<span class="material-icons-outlined headerLockIcon">
+					lock
+				</span>
+				Sign In
+			</button>
+		</a>
+	</header>
+	<main>
+		<section class="logo">
+			<img alt="logo" src="https://dsmchen.github.io/intuit-sign-up-page/assets/intuit-logo.png" class="intuitLogo">
+			<a target="_blank" href="https://mint.intuit.com/">
+			<div class="otherCompanies">
+				<div class="companyContainer">
+					<img class="logoCompanyIcon" alt="mintIcon" 
+						src="https://yt3.ggpht.com/ytc/AKedOLT613FgPPVca7HWr2E-Zzu2E-IPCknAZwysrR5X5Q=s900-c-k-c0x00ffffff-no-rj">
+					<h3 class="companyName">mint</h3>
+				</div>
+			</a>
+			<a target="_blank" href="https://quickbooks.intuit.com/">
+				<div class="companyContainer">
+					<img class="logoCompanyIcon" alt="quickbooksIcon"
+						src="https://assets.materialup.com/uploads/87f2e2a8-5ec3-4a53-9f52-43ee75f03d12/teaser.png">
+					<h3 class="companyName">quickbooks</h3>
+				</div>
+			</a>
+			<a target="_blank" href="https://turbotax.intuit.com/">
+				<div class="companyContainer">
+					<img class="logoCompanyIcon" alt="turbotaxbooksIcon"
+						src="https://upload.wikimedia.org/wikipedia/en/thumb/8/82/TurboTax_Logo.png/75px-TurboTax_Logo.png">
+					<h3 class="companyName">turbotax</h3>
+				</div>
+			</a>
+			</div>
+		</section>
+		<section class="formContainer">
+			<h1 class="createHeading">Create an Intuit account</h1>
+			<div class="formInfo">
+				<h3>One account for everything Intuit, including <br>
+					Mint. <a target="_blank" href="https://accounts-help.intuit.com/app/intuit/1995107">Learn more</a></h3>
+				<h3>Already have an account? <a target="_blank" href="https://accounts.intuit.com/index.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Ftask%3DS">Sign In</a></h3>
+			</div>
+			<form class="signUpForm">
+				<fieldset>
+					<label for="email" class="formLabel">Email</label>
+					<input type="email" id="email" name="email" class="formInput">
+					<span class="errorMessage"></span>
+					<label for="phone" class="formLabel">Phone <span class="recommendPhone">&nbsp;(recommended)</span></label>
+					<input type="tel" id="phone" name="phone" class="formInput">
+					<p class="phoneWarning">Standard call, message, or data rates may apply.</p>
+					<span class="errorMessage"></span>
+					<label for="password" class="formLabel">Password</label>
+					<div class="passwordInput">
+						<div class="passwordContainer">
+							<input type="password" id="password" name="password" class="formInput passwordInput">
+							<span class="material-icons-outlined passwordIcon">
+								lock_open
+							</span>
+						</div>
+						<span class="errorMessage"></span>
+					</div>
+					<button type="button" class="submit">
+						<span class="material-icons-outlined submitIcon">
+							lock
+						</span>
+						<h3>Create Account</h3>
+					</button>
+				</fieldset>
+			</form>
+			<div class="disclaimer">
+				<p><em>By selecting Create account, you agree to our <a target="_blank" href="https://mint.intuit.com/terms">Terms</a> and <br>
+					have read and acknowledge our <a target="_blank" href="https://www.intuit.com/privacy/statement/">Global Privacy<br>
+					Statement.</a></em></p>
+				<p class="updateNotifier"><em>Updates effective on January 10, 2022</em></p>
+			</div>
+			<div class="privacyPolicy">
+				<p>Invisible reCAPTCHA by Google <a target="_blank" href="https://policies.google.com/privacy?hl=en">Privacy Policy</a> and <a target="_blank" href="https://policies.google.com/terms?hl=en">Terms of Use</a>.</p>
+			</div>
+		</section>
+	</main>
+	<section class="formFooter">
+		<ul class="footerLinks">
+			<li><a target="_blank" href="https://www.intuit.com/legal/">Legal</a></li>
+			<li class="linkSpacing"><a target="_blank" href="">Privacy</a></li>
+			<li class="linkSpacing"><a target="_blank">Security</a></li>
+		</ul>
+		<p class="copyrightReminder">&copy; Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered
+			trademarks of
+			Intuit Inc.</p>
+		<p class="termsAndCondition">Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+	</section>
+	<footer>
+		<a class="footerSettings">Privacy Settings</a>
+	</footer>
+</body>
+
+</html>
